@@ -1,0 +1,252 @@
+html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    width: 60px;
+    height: 55px;
+    padding-left: 1px;
+}
+
+header{
+    height: 55px;
+    background-color: cadetblue;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none ;
+}
+
+ul li{
+    display: inline;
+    list-style: none;
+    padding: 5px 20px 5px 5px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+h1{
+    text-align: center;
+    font-size: 55px;
+    color: #ff5722;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    color: darkgreen;
+}
+
+.frontpage_image{
+    text-align: center;
+    margin-left: 225px;
+    margin-top: 60px;
+}
+
+.frontpage_image img{
+    width: 200px;
+    height: 200px;
+}
+
+.frontpage_image ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    right: 10%;
+}
+
+.frontpage_image ul li{
+    padding: 0 150px 0 0;
+}
+
+.frontpage_image p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.loginorregister h3{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+.loginorregister h3 a{
+    text-decoration: none;
+    color: #ff5722;
+}
+
+footer{
+    background-color: cadetblue;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    margin: 40px 0 0 0;
+    bottom: 0%;
+    position: relative;
+    font-size: 20px;
+    box-shadow: 10px 10px 10px 10px black ;
+}
+
+.login_div{
+    text-align: center;
+}
+
+.login_div a{
+    text-decoration: none;
+    color: #ff5722;
+}
+
+.absoluteFooter{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+.customer p a{
+    text-decoration: none;
+    color: #ff5722;
+}
+
+.non-radio input{
+    display: block;
+    border: #ff5722;
+    outline: none;
+    text-align: center;
+    margin: 20px auto;
+    box-shadow: 0 0 10px black;
+    width: 240px;
+    height: 30px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border-radius: 25px;
+    color: darkgreen;
+}
+
+::placeholder{
+    color: darkgreen;
+}
+
+button{
+    margin-top: 25px;
+    width: 240px;
+    height: 60px;
+    background-color: #ff5722;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.register{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.register button{
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.register button a{
+    text-decoration: none;
+    color: white;
+}
+
+.register h2{
+    font-size: 35px;
+}
+
+.customer{
+    text-align: center;
+}
+
+.salesman{
+    text-align: center;
+}
+
+.salesman a{
+    text-decoration: none;
+    color: #ff5722;
+}
+
+.alert {
+    padding: 20px;
+    background-color: rgb(241, 119, 119);
+    color: rgb(71, 68, 68);
+    font-size: 18px;
+  }
+
+.alertSuccess{
+    padding: 20px;
+    background-color: rgb(193, 247, 202);
+    color: rgb(71, 68, 68);
+    font-size: 18px;
+}
+  
+.closebtn {
+    margin-left: 15px;
+    color: rgb(71, 68, 68);
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+.closebtn:hover {
+    color: red;
+}
+
+.aboutImg{
+    display: block;
+}
+
+.aboutImg img{
+    width: 300px;
+    height: 300px;
+    margin-left: 38%;
+}
+
+.contact{
+    text-align: center;
+}
+
+.contact h2{
+    margin-top: 50px;
+    color: ff5722;
+}
+
+.contact li{
+    display: block;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact li a{
+    color: orangered;
+}
+
+.contact li a:hover{
+    color: darkgreen;
+}
